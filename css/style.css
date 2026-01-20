@@ -1,0 +1,44 @@
+*{
+ margin: 0;
+padding: 0;
+
+}
+
+header{
+ width: 100vw;
+ height: 10vh;   
+ background-color: blueviolet;
+ }
+
+ body {
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+ }
+ 
+ nav{
+    width: 100vw;
+    height: 15vh;
+    background-color: brown;
+ }
+ 
+ main{
+    width: 100vw;
+    height: 100vh;
+    background-color: chartreuse;
+ }
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: crimson;
+}
+
+
+
+
+
+
+.flex{
+    display: flex;
+}
