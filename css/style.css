@@ -46,3 +46,45 @@ footer{
 .FlexRow {
    flex-direction: column
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* El contenedor del header */
+.main-header {
+    background-color: #2c3e50; /* Un gris oscuro azulado */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #7f8c8d;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Estilo de la navegación */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre enlaces */
+    margin-top: 15px;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2ecc71; /* Color verde esmeralda al pasar el mouse */
+}
