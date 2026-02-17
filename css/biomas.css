@@ -1,0 +1,74 @@
+body {
+    background-color: #202020;
+    color: white;
+    font-family: sans-serif; /* Fuente estándar del sistema */
+    margin: 0;
+}
+
+.header {
+    background-color: #388E3C;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 4px solid #2E7D32;
+}
+
+/* Contenedor Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;    /* Permite que las tarjetas bajen a la siguiente línea */
+    justify-content: center; /* Centra las tarjetas */
+    gap: 20px;          /* Espacio entre tarjetas */
+    padding: 20px;
+}
+
+/* Estilo de la Tarjeta */
+.card {
+    background-color: #333;
+    width: 300px;       /* Ancho fijo para que todas sean iguales */
+    border: 2px solid #555;
+}
+
+.card img {
+    width: 100%;        /* La imagen ocupa todo el ancho de la tarjeta */
+    height: 180px;
+    display: block;
+    object-fit: cover;
+}
+
+.info {
+    padding: 15px;
+}
+
+.info h3 {
+    margin: 0 0 10px 0;
+    color: #81C784;
+}
+
+.info p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ccc;
+}
+
+
+/* Estilo de la navegación */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre enlaces */
+    margin-top: 15px;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2ecc71; /* Color verde esmeralda al pasar el mouse */
+}
