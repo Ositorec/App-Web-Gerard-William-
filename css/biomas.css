@@ -26,6 +26,7 @@ body {
     background-color: #333;
     width: 300px;       /* Ancho fijo para que todas sean iguales */
     border: 2px solid #555;
+    border-radius: 8px;
 }
 
 .card img {
@@ -33,6 +34,7 @@ body {
     height: 180px;
     display: block;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .info {
